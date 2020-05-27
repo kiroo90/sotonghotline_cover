@@ -14,10 +14,8 @@ $(() => {
         let scroll = $(window).scrollTop();
         if (scroll > 100) {
             $(".slide_container").addClass("on");
-            $(".imgs").addClass("on");
         }  else {
             $(".slide_container").removeClass("on");
-            $(".imgs").addClass("on");
         }
     });
 
@@ -40,7 +38,7 @@ $(() => {
         } 
         // 소통핫라인 서비스 소개 슬라이더 이미지
         if (scroll > title - 400) {
-            $(".item").find("img").addClass("on");
+            $(".item").find(".slide_img").addClass("on");
         } 
         // 소통핫라인 서비스 소개 슬라이더 텍스트
         if (scroll > item - 400) {
@@ -55,7 +53,7 @@ $(() => {
             $(".bg_red").find("div").addClass("on");
         }  
         // 자주하는 질문 타이틀
-        if (scroll > bgRed - 350) {
+        if (scroll > bgRed - 400) {
             $(".question_list").addClass("on");
         } 
         // 자주하는 질문 아이콘

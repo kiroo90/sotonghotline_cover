@@ -1,9 +1,13 @@
 $(() => {
     $(".slide_container").slick({
-        dots: true,
+        autoplay: true,
+        swipe: true,
         arrows: false,
+        dots: true,
+        centerMode: false,
+        slidesToShow: 1,
+        infinite: true,
         variableWidth: true,
-        autoplay: true
     });
 
     $(".slide_four_photos").slick({
