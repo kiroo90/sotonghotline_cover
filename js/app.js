@@ -2,7 +2,7 @@ $(() => {
     // 네비 업다운
     $(window).on("mousewheel", (e)=>{
         let scroll = e.originalEvent.wheelDelta;
-        if (scroll < 0) {
+        if (scroll < 10) {
             $("header").addClass("scroll");
         } else {
             $("header").removeClass("scroll");

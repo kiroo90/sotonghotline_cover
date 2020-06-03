@@ -18,5 +18,31 @@ $(() => {
         appendArrows: $(".slide_four_photos"),
         prevArrow: $(".prev"),
         nextArrow: $(".next"),
+        responsive: [
+            {
+              breakpoint: 1180,
+              settings: {
+                dots: false,
+                slidesToShow: 2,
+                variableWidth: true,
+                infinite: false,
+                appendArrows: $(".slide_four_photos"),
+                prevArrow: $(".prev"),
+                nextArrow: $(".next"),
+              }
+            },
+            {
+                breakpoint: 760,
+                settings: {
+                  dots: false,
+                  slidesToShow: 1,
+                  variableWidth: true,
+                  infinite: false,
+                  appendArrows: $(".slide_four_photos"),
+                  prevArrow: $(".prev"),
+                  nextArrow: $(".next"),
+                }
+              },
+        ]
     });
 });
