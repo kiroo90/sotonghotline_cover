@@ -1278,7 +1278,7 @@ footer .footer_info .copyright {
 
     .slide_container img {
         max-width: 118em;
-        height: initial;
+        height: 46rem;
         -webkit-transform: scale(0.97);
             -ms-transform: scale(0.97);
                 transform: scale(0.97);
@@ -1652,6 +1652,10 @@ footer .footer_info .copyright {
         -o-text-overflow: ellipsis;
            text-overflow: ellipsis;
     }
+
+    .slide_wrap .item:nth-child(1) .num.on {
+        padding-bottom: 3rem;
+    }
       /* 자주하는 질문 끝 */
 
         
@@ -1668,7 +1672,7 @@ footer .footer_info .copyright {
     }
     .partner_container .partner_info {
         width: 100%;
-        height: 50vh;
+        height: 50rem;
     }
 
     .partner_container .partner_info h3 {
@@ -1731,7 +1735,7 @@ footer .footer_info .copyright {
     footer .footer_nav ul {
         display: block;
         text-align: left;
-        margin: 0 auto;
+        margin: 0 4%;
     }
 
     footer .footer_nav ul li {
@@ -1744,7 +1748,7 @@ footer .footer_info .copyright {
 
     footer .footer_info {
         padding-top: 2rem;
-        margin: 0 auto;
+        margin: 0 4%;
     }
 
     footer .footer_info > h2 {
