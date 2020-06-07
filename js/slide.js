@@ -36,7 +36,6 @@ $(() => {
                 settings: {
                   dots: false,
                   slidesToShow: 1,
-                  variableWidth: true,
                   infinite: false,
                   appendArrows: $(".slide_four_photos"),
                   prevArrow: $(".prev"),
