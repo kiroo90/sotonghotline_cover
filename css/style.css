@@ -104,7 +104,7 @@ header .nav_gnb > ul{
 
 .wrap .slide_container .imgs {
     object-fit: contain;
-    height: 40vh;
+    height: 100%;
 }
 
 .slick-dots {
@@ -739,10 +739,6 @@ footer {
         background: #ffffff;
     }
 
-    .wrap .slide_container .imgs {
-        height: 60vh;
-    }
-
     .container .box_red {
         max-width: 12rem;
         height: 12rem;
@@ -1057,7 +1053,6 @@ footer {
     .wrap .slide_container .imgs {
         width: 100%;
         max-width: 186rem;
-        height: 78rem;
         outline: none;
     }
 
