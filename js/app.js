@@ -10,14 +10,14 @@ $(() => {
     });
 
     // 스크롤시 메인 컨텐츠 이미지 크기
-    // $(window).scroll(()=>{
-    //     let scroll = $(window).scrollTop();
-    //     if (scroll > 100) {
-    //         $(".slide_container").addClass("on");
-    //     }  else {
-    //         $(".slide_container").removeClass("on");
-    //     }
-    // });
+    $(window).scroll(()=>{
+        let scroll = $(window).scrollTop();
+        if (scroll > 100) {
+            $(".slide_container").addClass("on");
+        }  else {
+            $(".slide_container").removeClass("on");
+        }
+    });
 
     // 스크롤시 애니메이션
     $(window).scroll(()=>{
